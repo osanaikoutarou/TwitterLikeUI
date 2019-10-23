@@ -12,6 +12,14 @@
 		1E70E25A216F7F9E003BBED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E70E258216F7F9E003BBED8 /* Main.storyboard */; };
 		1E70E25C216F7F9F003BBED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E70E25B216F7F9F003BBED8 /* Assets.xcassets */; };
 		1E70E25F216F7F9F003BBED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E70E25D216F7F9F003BBED8 /* LaunchScreen.storyboard */; };
+		DA1C1F71235FDE6900022E41 /* ScreenA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1C1F70235FDE6900022E41 /* ScreenA.storyboard */; };
+		DA1C1F73235FDE7100022E41 /* ScreenB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1C1F72235FDE7100022E41 /* ScreenB.storyboard */; };
+		DA1C1F75235FDE7600022E41 /* ScreenC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1C1F74235FDE7600022E41 /* ScreenC.storyboard */; };
+		DA1C1F77235FDE7C00022E41 /* ScreenD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1C1F76235FDE7C00022E41 /* ScreenD.storyboard */; };
+		DA1C1F79235FDEB200022E41 /* ScreenAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1C1F78235FDEB200022E41 /* ScreenAViewController.swift */; };
+		DA1C1F7B235FDEBE00022E41 /* ScreenBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1C1F7A235FDEBE00022E41 /* ScreenBViewController.swift */; };
+		DA1C1F7D235FDEC800022E41 /* ScreenCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1C1F7C235FDEC800022E41 /* ScreenCViewController.swift */; };
+		DA1C1F7F235FDED200022E41 /* ScreenDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1C1F7E235FDED200022E41 /* ScreenDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		1E70E25B216F7F9F003BBED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E70E25E216F7F9F003BBED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E70E260216F7F9F003BBED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1C1F70235FDE6900022E41 /* ScreenA.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScreenA.storyboard; sourceTree = "<group>"; };
+		DA1C1F72235FDE7100022E41 /* ScreenB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScreenB.storyboard; sourceTree = "<group>"; };
+		DA1C1F74235FDE7600022E41 /* ScreenC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScreenC.storyboard; sourceTree = "<group>"; };
+		DA1C1F76235FDE7C00022E41 /* ScreenD.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScreenD.storyboard; sourceTree = "<group>"; };
+		DA1C1F78235FDEB200022E41 /* ScreenAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenAViewController.swift; sourceTree = "<group>"; };
+		DA1C1F7A235FDEBE00022E41 /* ScreenBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBViewController.swift; sourceTree = "<group>"; };
+		DA1C1F7C235FDEC800022E41 /* ScreenCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCViewController.swift; sourceTree = "<group>"; };
+		DA1C1F7E235FDED200022E41 /* ScreenDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenDViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 		1E70E253216F7F9E003BBED8 /* TwitterLikeUI */ = {
 			isa = PBXGroup;
 			children = (
+				DA1C1F6F235FDE4F00022E41 /* ChildScreens */,
 				1E70E254216F7F9E003BBED8 /* AppDelegate.swift */,
 				1E70E256216F7F9E003BBED8 /* ViewController.swift */,
 				1E70E258216F7F9E003BBED8 /* Main.storyboard */,
@@ -62,6 +79,21 @@
 				1E70E260216F7F9F003BBED8 /* Info.plist */,
 			);
 			path = TwitterLikeUI;
+			sourceTree = "<group>";
+		};
+		DA1C1F6F235FDE4F00022E41 /* ChildScreens */ = {
+			isa = PBXGroup;
+			children = (
+				DA1C1F70235FDE6900022E41 /* ScreenA.storyboard */,
+				DA1C1F72235FDE7100022E41 /* ScreenB.storyboard */,
+				DA1C1F74235FDE7600022E41 /* ScreenC.storyboard */,
+				DA1C1F76235FDE7C00022E41 /* ScreenD.storyboard */,
+				DA1C1F78235FDEB200022E41 /* ScreenAViewController.swift */,
+				DA1C1F7A235FDEBE00022E41 /* ScreenBViewController.swift */,
+				DA1C1F7C235FDEC800022E41 /* ScreenCViewController.swift */,
+				DA1C1F7E235FDED200022E41 /* ScreenDViewController.swift */,
+			);
+			path = ChildScreens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E70E25F216F7F9F003BBED8 /* LaunchScreen.storyboard in Resources */,
+				DA1C1F77235FDE7C00022E41 /* ScreenD.storyboard in Resources */,
 				1E70E25C216F7F9F003BBED8 /* Assets.xcassets in Resources */,
+				DA1C1F75235FDE7600022E41 /* ScreenC.storyboard in Resources */,
+				DA1C1F71235FDE6900022E41 /* ScreenA.storyboard in Resources */,
+				DA1C1F73235FDE7100022E41 /* ScreenB.storyboard in Resources */,
 				1E70E25A216F7F9E003BBED8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E70E257216F7F9E003BBED8 /* ViewController.swift in Sources */,
+				DA1C1F7F235FDED200022E41 /* ScreenDViewController.swift in Sources */,
+				DA1C1F7D235FDEC800022E41 /* ScreenCViewController.swift in Sources */,
+				DA1C1F79235FDEB200022E41 /* ScreenAViewController.swift in Sources */,
 				1E70E255216F7F9E003BBED8 /* AppDelegate.swift in Sources */,
+				DA1C1F7B235FDEBE00022E41 /* ScreenBViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +329,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.osanai..TwitterLikeUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -307,7 +347,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.osanai..TwitterLikeUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
